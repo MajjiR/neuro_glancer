@@ -1,7 +1,7 @@
 import os
 import shutil
 import tempfile
-import cv2
+#import cv2
 import numpy
 import json
 from wand.image import Image
