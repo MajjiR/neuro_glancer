@@ -93,7 +93,7 @@ with open(path+"//"+images[1]) as f:
 
 
 
-
+"""
 ########################################################################################################################
 counter = [f for f in os.listdir(temp_folder_path_0) if '.jpg' in f.lower()]
 slices = len(counter)
@@ -124,6 +124,8 @@ with open('data.json', 'w') as f:
 
 
 ########################################################################################################################
+
+"""
 
 os.system("generate-scales-info data.json output --target-chunk-size 128")
 os.system("dir" + " "+ temp_folder_path_0)
